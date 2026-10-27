@@ -32,18 +32,8 @@ the dependency paths expected by the original runners. Its data-generation logic
 
 - The 30,288,272-byte raw SQuAD JSON (downloaded by the existing builder when needed).
 - Proposal PDF/DOCX, which describe earlier plans and are not executable project dependencies.
-- The original Korean workflow README, replaced by English public documentation.
-- Modal welcome boilerplate, empty notebook cells, saved cell outputs/execution metadata,
-  and the unrelated assignment section at original notebook cells 32 onward.
 - Model weights, notebook authentication data, cache tensors, generated full experiment trees,
   and unpublished credential/configuration files.
 
 Nothing was removed from the original uploaded archive or the user's Modal environment.
 The release does not silently retrofit old hash-locked experiments.
-
-## Review before publishing
-
-Run the tests, inspect the README/results, and choose the desired visibility.
-No project-wide software license was added automatically. Preserve dataset attribution.
-The included checks found no common credential patterns in the publishable source, but
-pattern matching is not a guarantee that every possible secret has been detected.
