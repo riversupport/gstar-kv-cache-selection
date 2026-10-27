@@ -19,7 +19,7 @@ an approximately 50% prefix-access budget. On the remaining document positions,
 normalize first-question attention `a` and reconstruction-attention proxy `g`.
 With `b` free slots, form five candidates:
 
-$$R_\lambda=\operatorname{Top}_b((1-\lambda)a+\lambda g),
+$$R_\lambda=\text{Top}_b((1-\lambda)a+\lambda g),
 \quad\lambda\in\{0,0.25,0.5,0.75,1\}.$$
 
 The total-score selector maximizes `A(R) = sum(a_i)` among those candidates subject
