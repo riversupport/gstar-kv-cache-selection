@@ -92,25 +92,6 @@ python -m pip install torch==2.8.0 --index-url https://download.pytorch.org/whl/
 python -m pip install -r requirements-dev.txt
 ```
 
-Choose a compatible PyTorch wheel for your hardware; CUDA installation is not
-needed for the synthetic CPU tests. The full runner uses Linux `fcntl` file locks.
-See the official [PyTorch previous-version installation instructions](https://pytorch.org/get-started/previous-versions/).
-No installation is necessary merely to publish these files on GitHub.
-
-## Quick checks (no GPU or downloads)
-
-```bash
-python gstar_day1_selector.py
-python gstar_fullkv_pilot/gstar_prepare_pilot.py --self-test
-python -m unittest discover -s tests -v
-```
-
-The data builder's self-test does not download SQuAD. Its normal command does:
-
-```bash
-python gstar_fullkv_pilot/gstar_prepare_pilot.py
-```
-
 ## Running the experiment
 
 Open `notebooks/reproduce.ipynb` and execute the stages deliberately. It derives new
@@ -125,44 +106,3 @@ experiment directories from returned values rather than hardcoded historical IDs
 The fresh-test script is specific to eta=0.95 and the prescribed additional
 lambda=0.75 comparator. It rejects a conflicting development selection rather than
 silently forcing that value. New experimental designs must be separately versioned.
-
-**Do not overwrite your existing Modal scripts or old experiment snapshots with
-this cleaned release.** Even comment/logging edits change SHA256 hashes. Old
-results are deliberately not rehashed or modified. Run this release in a separate
-project directory with fresh checkpoints. The existing original project remains
-the source for resuming its historical runs. See [reproducibility notes](docs/REPRODUCIBILITY.md).
-
-## Output and logging
-
-Debug `print` statements were replaced with the standard-library `logging` API.
-Detailed tables and per-call diagnostics are at DEBUG; useful save/checkpoint
-messages are at INFO; errors and exceptions remain visible. Functions still return
-summaries and save all numerical records to JSON/JSONL/CSV.
-
-```python
-import logging
-logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
-logging.getLogger("gstar").setLevel(logging.INFO)
-# Use DEBUG for detailed diagnostics, or WARNING for quiet operation.
-```
-
-The notebook outputs and execution counts have been cleared. The unrelated
-assignment cells from the uploaded scratch notebook are not part of this release.
-
-## Data, provenance, and validation limits
-
-The raw 30 MB SQuAD JSON, downloaded model cache, and generated runs are excluded
-and ignored by Git. The small pilot includes attribution in
-[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
-
-Three modules missing from the latest uploaded ZIP were restored from earlier
-project attachments: the Full-KV runner, mask smoke runner, and fresh-test runner.
-The data builder is placed beside the Full-KV runner, as expected by the code.
-See [release provenance](docs/RELEASE_NOTES.md) and [cleanup manifest](docs/cleanup_manifest.json).
-
-Cleanup validation checks syntax, non-logging algorithm structure, synthetic
-selection equivalence, dataset construction, score aggregation, and EM/F1 behavior.
-It does **not** rerun the pretrained Qwen/L4 evaluation or certify bitwise GPU
-reproduction. Full experiment checkpoints and source weights are not included.
-No project-wide software license was chosen during cleanup; the owner must decide
-that separately. The third-party data license is independent.
