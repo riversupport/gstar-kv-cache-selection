@@ -1,0 +1,18 @@
+test_coverage_constraints_and_budget (test_project.ProjectTests.test_coverage_constraints_and_budget) ... ok
+test_data_builder_builtin_without_download (test_project.ProjectTests.test_data_builder_builtin_without_download) ... ok
+test_exact_budget_and_protection (test_project.ProjectTests.test_exact_budget_and_protection) ... ok
+test_imports_are_quiet (test_project.ProjectTests.test_imports_are_quiet) ... ok
+test_notebooks_clean_and_parseable (test_project.ProjectTests.test_notebooks_clean_and_parseable) ... ok
+test_pilot_integrity (test_project.ProjectTests.test_pilot_integrity) ... ok
+test_reconstruction_block_reduction (test_project.ProjectTests.test_reconstruction_block_reduction) ... ok
+test_reserve_endpoints (test_project.ProjectTests.test_reserve_endpoints) ... ok
+test_score_behavior (test_project.ProjectTests.test_score_behavior) ... ok
+test_source_has_no_direct_print_calls (test_project.ProjectTests.test_source_has_no_direct_print_calls) ... ok
+test_synthetic_selector_builtin (test_project.ProjectTests.test_synthetic_selector_builtin) ... ok
+test_total_score_constraints (test_project.ProjectTests.test_total_score_constraints) ... ok
+test_zero_coverage_reference (test_project.ProjectTests.test_zero_coverage_reference) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.311s
+
+OK

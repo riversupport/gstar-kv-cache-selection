@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "python_version": "3.13.5",
+  "torch_version": "2.10.0+cpu",
+  "cuda_available": false,
+  "compiled_and_AST_equivalent_modules": [
+    "gstar_day1_selector.py",
+    "gstar_fullkv_pilot/gstar_prepare_pilot.py",
+    "gstar_fullkv_pilot/gstar_run_fullkv.py",
+    "gstar_mask_smoke.py",
+    "gstar_paired_pilot.py",
+    "gstar_expanded_eval.py",
+    "gstar_extract_coverage.py",
+    "gstar_coverage_eval.py",
+    "gstar_fresh_coverage_test.py"
+  ],
+  "notebook_equivalent_project_cells": 28,
+  "random_score_policy_regression_cases": 32,
+  "coverage_reduction_dtypes": [
+    "float32",
+    "bfloat16"
+  ],
+  "data_builder_original_vs_cleaned": "exact",
+  "pilot_input_bytes": "unchanged",
+  "prompt_constants": "unchanged",
+  "em_f1_cases": 5,
+  "no_GPU_model_run": true,
+  "limitations": "CPU/source-level checks do not replace a Qwen/L4 end-to-end run. Existing code hash-locked checkpoints are intentionally not rewritten.",
+  "included_unittest_cases": 13,
+  "included_unittest_status": "PASS"
+}

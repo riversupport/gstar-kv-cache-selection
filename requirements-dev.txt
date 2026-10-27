@@ -1,0 +1,3 @@
+-r requirements.txt
+jupyterlab>=4,<5
+nbformat>=5,<6

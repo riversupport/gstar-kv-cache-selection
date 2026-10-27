@@ -1,0 +1,325 @@
+[
+  {
+    "path": "gstar_day1_selector.py",
+    "source": "latest_uploaded_archive/gstar_day1_selector.py",
+    "source_sha256": "87fa3828050997cf614b51aa8109ba61494ec28409b565b57c498da7ea8f7ce9",
+    "cleaned_sha256": "5ec97349b863cd38a8222a46dec91fbf56dbf8ad71c10c17a75fca782f3a6be5",
+    "print_calls_replaced": 9,
+    "debug": 8,
+    "info": 1,
+    "warning": 0,
+    "error": 0
+  },
+  {
+    "path": "gstar_fullkv_pilot/gstar_prepare_pilot.py",
+    "source": "latest_uploaded_archive/gstar_prepare_pilot.py",
+    "source_sha256": "789b198fa440697cb444089860dcf2bc9258ae26f500fa255b2cfcc05aeb6b50",
+    "cleaned_sha256": "73d8dce74c037323a69a3fde0e638660d3ddabe3c0c505e9c4404cc2a6d6ffeb",
+    "print_calls_replaced": 13,
+    "debug": 10,
+    "info": 2,
+    "warning": 0,
+    "error": 1
+  },
+  {
+    "path": "gstar_fullkv_pilot/gstar_run_fullkv.py",
+    "source": "earlier_conversation_attachment/gstar_run_fullkv.py",
+    "source_sha256": "da8899ffef7f128c51f2e1cb847b4cf87025198bfca3c3b557f290be663e15a2",
+    "cleaned_sha256": "3b17a7179859ffd8097a386d98d93de58f1dc466790c30d447f89b6bad5cebc5",
+    "print_calls_replaced": 18,
+    "debug": 15,
+    "info": 2,
+    "warning": 1,
+    "error": 0
+  },
+  {
+    "path": "gstar_mask_smoke.py",
+    "source": "earlier_conversation_attachment/gstar_mask_smoke.py",
+    "source_sha256": "a0d308728ecbc8657208b93a0f93adea268812e712e5329c9c00c29cdbe658a5",
+    "cleaned_sha256": "ff6a307937e91ccdd5db07c31a8be430a2b149a3430b6d04048c6bff34308543",
+    "print_calls_replaced": 22,
+    "debug": 20,
+    "info": 1,
+    "warning": 0,
+    "error": 1
+  },
+  {
+    "path": "gstar_paired_pilot.py",
+    "source": "latest_uploaded_archive/gstar_paired_pilot.py",
+    "source_sha256": "423074cd806ed2f17587653e765c9b4554bf5efd9967a04d725eea5ebafedaf1",
+    "cleaned_sha256": "8e638b02f9da27839d5800b9eb8ad351aecfc8716e51492f9ede95d534eeac5d",
+    "print_calls_replaced": 28,
+    "debug": 26,
+    "info": 1,
+    "warning": 0,
+    "error": 1
+  },
+  {
+    "path": "gstar_expanded_eval.py",
+    "source": "latest_uploaded_archive/gstar_expanded_eval.py",
+    "source_sha256": "f8cf538f410c17b6320bd4b1a1ded9bf55acf004afd9506d672a23fd8d6eee87",
+    "cleaned_sha256": "6eb71cb695ab8cfe52f79c802aef89a72f321e4075468023ee2c5a1ab8066a9c",
+    "print_calls_replaced": 23,
+    "debug": 16,
+    "info": 6,
+    "warning": 0,
+    "error": 1
+  },
+  {
+    "path": "gstar_extract_coverage.py",
+    "source": "latest_uploaded_archive/gstar_extract_coverage.py",
+    "source_sha256": "c5810c254b12f7edc61af75da0e2808f8804818b402463594f78601160d6ae18",
+    "cleaned_sha256": "e652be59194f77bf2e792ae92ca7fc01dcb7619016a34957571f94556c3197d0",
+    "print_calls_replaced": 16,
+    "debug": 14,
+    "info": 1,
+    "warning": 0,
+    "error": 1
+  },
+  {
+    "path": "gstar_coverage_eval.py",
+    "source": "latest_uploaded_archive/gstar_coverage_eval.py",
+    "source_sha256": "a301c7e93ac6974ed8f16618be3953cbf8943ca3cfebaa77f8eca2c70a5fcd84",
+    "cleaned_sha256": "e113df6d8f2a07a4f74ce31e350c755e70fb1c6de9d4cfa6e612fbbc432f079b",
+    "print_calls_replaced": 25,
+    "debug": 20,
+    "info": 4,
+    "warning": 0,
+    "error": 1
+  },
+  {
+    "path": "gstar_fresh_coverage_test.py",
+    "source": "earlier_conversation_attachment/gstar_fresh_coverage_test.py",
+    "source_sha256": "dc889c3b5e6faafff785373ce94667c52803010d1355a9811944bf294e9f507f",
+    "cleaned_sha256": "304934ffc4720274b2dae10e2af0e20f40ac04783a5ab637db1d3d4a8615297d",
+    "print_calls_replaced": 22,
+    "debug": 15,
+    "info": 6,
+    "warning": 0,
+    "error": 1
+  },
+  {
+    "path": "notebooks/experiment_log.ipynb#original-cell-1",
+    "print_calls_replaced": 8,
+    "debug": 8,
+    "info": 0,
+    "warning": 0,
+    "error": 0
+  },
+  {
+    "path": "notebooks/experiment_log.ipynb#original-cell-2",
+    "print_calls_replaced": 4,
+    "debug": 4,
+    "info": 0,
+    "warning": 0,
+    "error": 0
+  },
+  {
+    "path": "notebooks/experiment_log.ipynb#original-cell-3",
+    "print_calls_replaced": 7,
+    "debug": 7,
+    "info": 0,
+    "warning": 0,
+    "error": 0
+  },
+  {
+    "path": "notebooks/experiment_log.ipynb#original-cell-4",
+    "print_calls_replaced": 3,
+    "debug": 3,
+    "info": 0,
+    "warning": 0,
+    "error": 0
+  },
+  {
+    "path": "notebooks/experiment_log.ipynb#original-cell-5",
+    "print_calls_replaced": 3,
+    "debug": 3,
+    "info": 0,
+    "warning": 0,
+    "error": 0
+  },
+  {
+    "path": "notebooks/experiment_log.ipynb#original-cell-6",
+    "print_calls_replaced": 6,
+    "debug": 6,
+    "info": 0,
+    "warning": 0,
+    "error": 0
+  },
+  {
+    "path": "notebooks/experiment_log.ipynb#original-cell-7",
+    "print_calls_replaced": 1,
+    "debug": 0,
+    "info": 1,
+    "warning": 0,
+    "error": 0
+  },
+  {
+    "path": "notebooks/experiment_log.ipynb#original-cell-8",
+    "print_calls_replaced": 0,
+    "debug": 0,
+    "info": 0,
+    "warning": 0,
+    "error": 0
+  },
+  {
+    "path": "notebooks/experiment_log.ipynb#original-cell-9",
+    "print_calls_replaced": 3,
+    "debug": 3,
+    "info": 0,
+    "warning": 0,
+    "error": 0
+  },
+  {
+    "path": "notebooks/experiment_log.ipynb#original-cell-10",
+    "print_calls_replaced": 10,
+    "debug": 9,
+    "info": 1,
+    "warning": 0,
+    "error": 0
+  },
+  {
+    "path": "notebooks/experiment_log.ipynb#original-cell-11",
+    "print_calls_replaced": 11,
+    "debug": 10,
+    "info": 1,
+    "warning": 0,
+    "error": 0
+  },
+  {
+    "path": "notebooks/experiment_log.ipynb#original-cell-12",
+    "print_calls_replaced": 0,
+    "debug": 0,
+    "info": 0,
+    "warning": 0,
+    "error": 0
+  },
+  {
+    "path": "notebooks/experiment_log.ipynb#original-cell-13",
+    "print_calls_replaced": 0,
+    "debug": 0,
+    "info": 0,
+    "warning": 0,
+    "error": 0
+  },
+  {
+    "path": "notebooks/experiment_log.ipynb#original-cell-14",
+    "print_calls_replaced": 1,
+    "debug": 0,
+    "info": 1,
+    "warning": 0,
+    "error": 0
+  },
+  {
+    "path": "notebooks/experiment_log.ipynb#original-cell-15",
+    "print_calls_replaced": 2,
+    "debug": 2,
+    "info": 0,
+    "warning": 0,
+    "error": 0
+  },
+  {
+    "path": "notebooks/experiment_log.ipynb#original-cell-16",
+    "print_calls_replaced": 0,
+    "debug": 0,
+    "info": 0,
+    "warning": 0,
+    "error": 0
+  },
+  {
+    "path": "notebooks/experiment_log.ipynb#original-cell-17",
+    "print_calls_replaced": 3,
+    "debug": 3,
+    "info": 0,
+    "warning": 0,
+    "error": 0
+  },
+  {
+    "path": "notebooks/experiment_log.ipynb#original-cell-18",
+    "print_calls_replaced": 0,
+    "debug": 0,
+    "info": 0,
+    "warning": 0,
+    "error": 0
+  },
+  {
+    "path": "notebooks/experiment_log.ipynb#original-cell-19",
+    "print_calls_replaced": 1,
+    "debug": 1,
+    "info": 0,
+    "warning": 0,
+    "error": 0
+  },
+  {
+    "path": "notebooks/experiment_log.ipynb#original-cell-20",
+    "print_calls_replaced": 7,
+    "debug": 7,
+    "info": 0,
+    "warning": 0,
+    "error": 0
+  },
+  {
+    "path": "notebooks/experiment_log.ipynb#original-cell-21",
+    "print_calls_replaced": 0,
+    "debug": 0,
+    "info": 0,
+    "warning": 0,
+    "error": 0
+  },
+  {
+    "path": "notebooks/experiment_log.ipynb#original-cell-22",
+    "print_calls_replaced": 0,
+    "debug": 0,
+    "info": 0,
+    "warning": 0,
+    "error": 0
+  },
+  {
+    "path": "notebooks/experiment_log.ipynb#original-cell-23",
+    "print_calls_replaced": 0,
+    "debug": 0,
+    "info": 0,
+    "warning": 0,
+    "error": 0
+  },
+  {
+    "path": "notebooks/experiment_log.ipynb#original-cell-24",
+    "print_calls_replaced": 0,
+    "debug": 0,
+    "info": 0,
+    "warning": 0,
+    "error": 0
+  },
+  {
+    "path": "notebooks/experiment_log.ipynb#original-cell-25",
+    "print_calls_replaced": 0,
+    "debug": 0,
+    "info": 0,
+    "warning": 0,
+    "error": 0
+  },
+  {
+    "path": "notebooks/experiment_log.ipynb#original-cell-27",
+    "print_calls_replaced": 0,
+    "debug": 0,
+    "info": 0,
+    "warning": 0,
+    "error": 0
+  },
+  {
+    "path": "notebooks/experiment_log.ipynb#original-cell-28",
+    "print_calls_replaced": 0,
+    "debug": 0,
+    "info": 0,
+    "warning": 0,
+    "error": 0
+  },
+  {
+    "path": "notebooks/experiment_log.ipynb#original-cell-29",
+    "print_calls_replaced": 2,
+    "debug": 2,
+    "info": 0,
+    "warning": 0,
+    "error": 0
+  }
+]

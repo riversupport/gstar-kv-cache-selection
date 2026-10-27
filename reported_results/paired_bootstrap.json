@@ -1,0 +1,74 @@
+{
+  "documents": 20,
+  "resamples": 10000,
+  "seed": 20261023,
+  "scope": "Prespecified paired article-bootstrap percentile intervals; no multiple-comparison correction; not proof of superiority.",
+  "comparisons": {
+    "coverage_eta_0.95_minus_g_proxy_only": {
+      "first_f1": {
+        "difference": -1.2284384495699996,
+        "ci95_low": -11.115961031748126,
+        "ci95_high": 8.003473907849447
+      },
+      "same_f1": {
+        "difference": 0.7548400673400693,
+        "ci95_low": -15.147109487734491,
+        "ci95_high": 17.456455176767673
+      },
+      "different_f1": {
+        "difference": 9.592031861053606,
+        "ci95_low": -6.123059006211182,
+        "ci95_high": 27.083550796526346
+      },
+      "worst_target_f1": {
+        "difference": 0.7548400673400693,
+        "ci95_low": -15.147109487734491,
+        "ci95_high": 17.14287893819144
+      }
+    },
+    "coverage_eta_0.95_minus_fixed_tuned": {
+      "first_f1": {
+        "difference": -1.2284384495699996,
+        "ci95_low": -11.115961031748126,
+        "ci95_high": 8.003473907849447
+      },
+      "same_f1": {
+        "difference": 0.7548400673400693,
+        "ci95_low": -15.147109487734491,
+        "ci95_high": 17.456455176767673
+      },
+      "different_f1": {
+        "difference": 9.592031861053606,
+        "ci95_low": -6.123059006211182,
+        "ci95_high": 27.083550796526346
+      },
+      "worst_target_f1": {
+        "difference": 0.7548400673400693,
+        "ci95_low": -15.147109487734491,
+        "ci95_high": 17.14287893819144
+      }
+    },
+    "coverage_eta_0.95_minus_fixed_lambda_0.75": {
+      "first_f1": {
+        "difference": -0.16739877769288825,
+        "ci95_low": -10.408553762414055,
+        "ci95_high": 11.435858320600948
+      },
+      "same_f1": {
+        "difference": -1.7440196297955026,
+        "ci95_low": -11.910658307210035,
+        "ci95_high": 7.38095238095238
+      },
+      "different_f1": {
+        "difference": 6.5796397697141416,
+        "ci95_low": -4.655685863208749,
+        "ci95_high": 20.555200841778365
+      },
+      "worst_target_f1": {
+        "difference": -1.7440196297955026,
+        "ci95_low": -11.371995820271678,
+        "ci95_high": 11.354166666666664
+      }
+    }
+  }
+}

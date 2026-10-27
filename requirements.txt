@@ -1,0 +1,6 @@
+# Install the appropriate PyTorch 2.8.0 wheel for your CUDA/CPU runtime first.
+torch==2.8.0
+transformers==4.56.0
+numpy>=1.26,<3
+# Transitive tokenizer/safetensors versions were not pinned by the supplied scripts.
+# Runtime fingerprints intentionally prevent mixing environments within a run.
